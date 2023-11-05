@@ -3,6 +3,8 @@ import mdx from "@astrojs/mdx";
 
 export default defineConfig({
     output: 'static',
-    site: "https://preenx.github.io/rect-battle/",
+    site: "https://preenx.github.io/",
+    base: "/rect-battle",
+    trailingSlash: "always",
     integrations: [mdx()],
 })
